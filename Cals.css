@@ -1,0 +1,42 @@
+.button{
+    background-color: aqua;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+    .display{
+        background-color: cornsilk;
+        border: coral;
+        color: black;
+        padding: 25px 20px;
+        font-size: 150%;
+        border-radius: 9px;
+    }
+
+        .gold{
+            background-color: gold;
+            color: black;
+        }
+
+            .green{
+                background-color: greenyellow;
+                color: black;
+            }
+
+                .red{
+                    background-color: red;
+                    color: black;
+                }
+
+                    button{
+                        font-size: 150%;
+                        font-weight: bold;
+                    }

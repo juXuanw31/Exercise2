@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Calkulator Complete</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="Cals.css" />
+    <script type="text/javascript" src="main.js"></script>
+</head>
+
+<body>
+    <h1 style="text-align: center; color:navy; font-size: 50px">My Calculator</h1>
+    <br/>
+    <form name="Calculator">
+        <table align=center border=10>
+            <tr>
+                <td>
+                    <input class="display" type="text" name="input" maxlength="16" size="20">
+                    <br/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input class="button gold" type="button" name="seven" value="  7  " OnClick="Calculator.input.value += '7'">
+                    <input class="button gold" type="button" name="eight" value="  8  " OnClick="Calculator.input.value += '8'">
+                    <input class="button gold" type="button" name="nine" value="  9  " OnClick="Calculator.input.value += '9'">
+                    <input class="button green" type="button" name="divide" value="  /  " OnClick="Calculator.input.value += ' / '">
+                    <br/>
+                    <br/>
+                    <input class="button gold" type="button" name="four" value="  4  " OnClick="Calculator.input.value += '4'">
+                    <input class="button gold" type="button" name="five" value="  5  " OnClick="Calculator.input.value += '5'">
+                    <input class="button gold" type="button" name="six" value="  6  " OnClick="Calculator.input.value += '6'">
+                    <input class="button green" type="button" name="multiply" value="  x  " OnClick="Calculator.input.value += ' * '">
+                    <br/>
+                    <br/>
+                    <input class="button gold" type="button" name="one" value="  1  " OnClick="Calculator.input.value += '1'">
+                    <input class="button gold" type="button" name="two" value="  2  " OnClick="Calculator.input.value += '2'">
+                    <input class="button gold" type="button" name="three" value="  3  " OnClick="Calculator.input.value += '3'">
+                    <input class="button green" type="button" name="substract" value="  -  " OnClick="Calculator.input.value += ' - '">
+                    <br/>
+                    <br/>
+                    <input class="button red" type="button" name="clear" value="  C  " OnClick="Calculator.input.value = ''">
+                    <input class="button gold" type="button" name="zero" value="  0  " OnClick="Calculator.input.value += '0'">
+                    <input class="button green" type="button" name="add" value="  +  " OnClick="Calculator.input.value += ' + '">
+                    <input class="button green" type="button" name="process" value="  =  " OnClick="Calculator.input.value = eval(Calculator.input.value)">
+                    <br/>
+                    <br/>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
